@@ -1,0 +1,23 @@
+.sk-box {
+    background: rgba(67, 44, 133, 0.32);
+    border-radius: 7px;
+    box-sizing: border-box;
+    color: #F2F3F8;
+    display: block;
+    padding: 1.45rem;
+    text-align: center;
+    -webkit-box-shadow: 0 3px 16px rgba(255, 255, 255, 0.10), 0 3px 16px rgba(255, 255, 255, 0.10);
+    box-shadow: 0 3px 16px rgba(255, 255, 255, 0.10), 0 3px 16px rgba(255, 255, 255, 0.10);
+}
+
+.sk-box h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.sk-box p {
+    font-weight: 100;
+    margin: 0;
+}
