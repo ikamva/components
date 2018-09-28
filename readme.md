@@ -9,11 +9,11 @@ Web Components and Shared Code
 ### Node Modules
 
 - Run `npm i @ikamva/components --save`
-- Put a script tag similar to this `<script src='node_modules/@ikamva/components/dist/sk-box.js'></script>` in the head of your index.html
+- Put a script tag similar to this `<script src='node_modules/@ikamva/components/dist/ikamva.js'></script>` in the head of your index.html
 - Then you can use the element anywhere in your template, JSX, html etc
 
 ###
 
 - Run `npm i @ikamva/components --save`
-- Add an import to the npm packages `import sk-box;`
+- Add an import to the npm packages `import ikamva;`
 - Then you can use the element anywhere in your template, JSX, html etc

@@ -13,35 +13,22 @@ import '@stencil/core';
 export namespace Components {
 
   interface SkBox {
-    'boxTitle': string;
+    'boxtitle': string;
     'description': string;
   }
   interface SkBoxAttributes extends StencilHTMLAttributes {
-    'boxTitle'?: string;
+    'boxtitle'?: string;
     'description'?: string;
-  }
-
-  interface MyComponent {
-    'first': string;
-    'last': string;
-    'middle': string;
-  }
-  interface MyComponentAttributes extends StencilHTMLAttributes {
-    'first'?: string;
-    'last'?: string;
-    'middle'?: string;
   }
 }
 
 declare global {
   interface StencilElementInterfaces {
     'SkBox': Components.SkBox;
-    'MyComponent': Components.MyComponent;
   }
 
   interface StencilIntrinsicElements {
     'sk-box': Components.SkBoxAttributes;
-    'my-component': Components.MyComponentAttributes;
   }
 
 
@@ -51,20 +38,12 @@ declare global {
     new (): HTMLSkBoxElement;
   };
 
-  interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {}
-  var HTMLMyComponentElement: {
-    prototype: HTMLMyComponentElement;
-    new (): HTMLMyComponentElement;
-  };
-
   interface HTMLElementTagNameMap {
     'sk-box': HTMLSkBoxElement
-    'my-component': HTMLMyComponentElement
   }
 
   interface ElementTagNameMap {
     'sk-box': HTMLSkBoxElement;
-    'my-component': HTMLMyComponentElement;
   }
 
 

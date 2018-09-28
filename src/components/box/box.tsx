@@ -7,14 +7,14 @@ import { Component, Prop } from '@stencil/core';
 })
 export class SkBoxComponent {
   @Prop()
-  boxTitle: string;
+  boxtitle: string;
   @Prop()
   description: string;
 
   render() {
     return (
       <div class="sk-box">
-        <h1>{this.boxTitle}</h1>
+        <h1>{this.boxtitle}</h1>
         <p>{this.description}</p>
       </div>
     );

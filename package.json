@@ -14,7 +14,7 @@
         "start": "stencil build --dev --watch --serve",
         "test": "stencil test --spec",
         "test.watch": "stencil test --spec --watchAll",
-        "publish": "npm publish --access=public"
+        "deploy": "npm publish --access=public"
     },
     "dependencies": {},
     "devDependencies": {
